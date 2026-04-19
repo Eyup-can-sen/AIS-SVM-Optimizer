@@ -2,7 +2,7 @@
 clc; clear; close all;
 
 % Global değişkenler
-global n pop sinir_alt sinir_us Egitim Egitimc affinity_skorlari klon_pop
+global n nc pop sinir_alt sinir_us Egitim Egitimc affinity_skorlari klon_pop
 
 % VERİ YÜKLEME
 disp('--- Veri Yükleniyor ---');
@@ -47,7 +47,7 @@ for iter = 1:iterasyon
     
     % 3. Klonlama, Mutasyon ve Seçim
     if iter < iterasyon
-        klonlama(nc);
+        klonlama();
         hipermutasyon();
         secim();
     end
