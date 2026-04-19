@@ -61,6 +61,37 @@ You can access the dataset used in this project here:
 
 ---
 
+## 📈 Sample Output / Örnek Çıktı
+
+**🇬🇧 EN:** Below is a sample output of the algorithm optimizing hyperparameters over 25 generations.
+**🇹🇷 TR:** Aşağıda algoritmanın 25 nesil boyunca hiperparametreleri optimize ettiği örnek bir çalışma çıktısı bulunmaktadır.
+
+```text
+--- Adım 3: Optimizasyon Döngüsü Başlıyor ---
+
+>>> İterasyon 1 
+Bu neslin en düşük hatası: 0.2175 (Doğruluk: %78.25)
+...
+>>> İterasyon 12 
+Bu neslin en düşük hatası: 0.2082 (Doğruluk: %79.18)
+...
+>>> İterasyon 19 
+Bu neslin en düşük hatası: 0.2063 (Doğruluk: %79.37)
+...
+>>> İterasyon 25 
+Bu neslin en düşük hatası: 0.2100 (Doğruluk: %79.00)
+
+=== BULUNAN EN İYİ 5 SVM HİPERPARAMETRESİ ===
+1. BoxConstraint   (Sayısal) : 89.1488
+2. KernelScale     (Sayısal) : 91.7941
+3. KernelFunction  (Sözel)   : polynomial
+4. PolynomialOrder (Sayısal) : 4
+5. Standardize     (Sözel)   : true
+Elde Edilen En Düşük Hata    : 0.2100
+```
+
+---
+
 ## 🚀 Usage / Kullanım
 1. Clone the repository / Repoyu klonlayın.
 2. Ensure all `.m` files and `diabetes.csv` are in the same folder / Tüm dosyaların aynı klasörde olduğundan emin olun.
